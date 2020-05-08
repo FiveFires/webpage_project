@@ -1,0 +1,65 @@
+
+@font-face {
+    font-family: fenix-menu;
+    src: url("fonts/Fenix-Regular.ttf");
+}
+
+
+
+body {
+  background-color: white;
+}
+
+#nav
+{
+  position:fixed;
+  top: 0px;  
+  width: 100%;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  background: rgba(255,255,255,0.5)
+}
+
+.nav-menu
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.nav-menu a
+{
+  font-family: fenix-menu;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-size: 3vh;
+}
+
+.nav-menu a:hover
+{
+  font-weight: bold;
+}
+
+.nav-menu li
+{
+  padding: 0px 20px 0px 20px;
+  list-style-type: none;
+  
+}
+
+
+#home
+ {
+   background: rgba(0,0,0,0);
+   display: flex;
+   justify-content: center;
+   padding:30vh;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
