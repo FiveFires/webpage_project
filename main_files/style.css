@@ -69,7 +69,7 @@ nav {
   align-content: center;
   padding-right: 10em;
   margin-top: 5em;
-  padding-bottom: 5em;
+  padding-bottom: 10em;
 }
 
 .arrow-down{
@@ -95,15 +95,15 @@ nav {
   align-items: left;
   align-content: left;
   flex-direction: column;
-  padding-left: 3em;
-  padding-right: 3em;
-  padding-top: 5em;
+  padding-left: 2em;
+  padding-right: 2em;
   padding-bottom: 5em;
-  margin-top: 5em;
+  padding-top: 10em;
 }
 
 .article-border{
   border-style: solid;
+  padding: 1em;
 }
 
 #article-container h2{
