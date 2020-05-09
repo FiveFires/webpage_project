@@ -89,7 +89,6 @@ nav {
 }
 
 #article-container{
-  border-style:solid;
   font-family: fenix-menu;
   display: flex;
   justify-content: left;
@@ -103,9 +102,14 @@ nav {
   margin-top: 5em;
 }
 
+.article-border{
+  border-style: solid;
+}
+
 #article-container h2{
   font-size: 2em;
 }
+
 
 #about{
   font-family: fenix-menu;
