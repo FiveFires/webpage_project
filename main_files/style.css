@@ -63,9 +63,13 @@ nav {
 
 .arrow-down-container{
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   align-content: center;
+  padding-right: 10em;
+  margin-top: 5em;
+  padding-bottom: 5em;
 }
 
 .arrow-down{
@@ -73,20 +77,50 @@ nav {
   max-height: 150px;
   max-width: 250px;
   opacity: 0.8;
-  margin-top: 5em;
 }
 
 .arrow-down:hover {
   opacity: 1;
 }
 
+.click-me{
+  max-height: 150px;
+  max-width: 250px;
+}
+
 #article-container{
+  border-style:solid;
   font-family: fenix-menu;
   display: flex;
   justify-content: left;
   align-items: left;
   align-content: left;
   flex-direction: column;
-  padding: 3em;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 5em;
+  padding-bottom: 5em;
   margin-top: 5em;
+}
+
+#article-container h2{
+  font-size: 2em;
+}
+
+#about{
+  font-family: fenix-menu;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  margin-top: 2em;
+}
+
+#about h2{
+  font-size: 2em;
 }
