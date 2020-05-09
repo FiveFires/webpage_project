@@ -57,8 +57,8 @@ nav {
 }
 
 .headline{
-  max-height: 600px;
-  max-width: 1000px;
+  max-height: 75em;
+  max-width: 45em;
 }
 
 .arrow-down-container{
