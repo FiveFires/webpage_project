@@ -11,6 +11,18 @@ html {
 body {
   background-color: white;
 }
+.projects{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.projects h1{
+  font-family: fenix-menu;
+  font-size: 10em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
 
 nav {
   position: fixed;
